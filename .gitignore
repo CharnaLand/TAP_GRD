@@ -4,6 +4,7 @@
 #Except for my project
 !.gitignore
 !PartitionareaIntervalelor/
+!README.md
 
 #Also ignore some stuff inside
 PartitionareaIntervalelor/bin/
