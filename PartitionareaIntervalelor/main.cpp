@@ -98,8 +98,6 @@ public:
     {
         nrSali=0;
         nrEven=0;
-        ///FOLOSIRE LINIA 0 PENTRU A MARCA IN CE INTERVAL ORAR
-            ///ESTE OCUPATA SALA PRINTR-UN INTERVAL
         repart.resize(1);
         Interval zero;
         repart[0].push_back(zero);
@@ -177,10 +175,7 @@ int ProgramareSali(vector<Interval> ve, Aranjare& A)
 {
     sort(ve.begin(),ve.end());
     for(int i=0;i<ve.size();i++)
-    {
         int sala = A+=ve[i];
-        cout<<ve[i]<<" ~ sala "<<sala<<"\n";
-    }
 }
 
 int main()
@@ -195,7 +190,7 @@ for(int i=0;i<n;i++) f>>ve[i];
 Aranjare A;
 
 ProgramareSali(ve,A);
-cout<<"\n--------------\n";
+
 A.program();
 
 return 0;
