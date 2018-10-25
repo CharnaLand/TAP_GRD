@@ -1,6 +1,6 @@
-Probleme Greedy - Tehnici avansate de TAP
+# Probleme Greedy - Tehnici avansate de TAP
 
-#Partitionarea Intervalelor
+## Partitionarea Intervalelor
 
 Idee: sortare intervale dupa ora de incepere si durata in mod crescator 
 apoi adaugare fiecare Interval intr-o Aranjare
